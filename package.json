@@ -1,0 +1,22 @@
+{
+  "name": "benten-web",
+  "version": "1.0.0",
+  "description": "Web interface for ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrismccluskey/benten-web.git"
+  },
+  "author": "Chris McCluskey <chris@mccluskey.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrismccluskey/benten-web/issues"
+  },
+  "homepage": "https://github.com/chrismccluskey/benten-web#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
