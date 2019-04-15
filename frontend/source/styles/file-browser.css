@@ -1,0 +1,8 @@
+.file_browser {
+	border: 1px dotted grey;
+}
+
+.file_browser_files {
+	display: flex;
+	flex-direction: column;
+}

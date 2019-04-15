@@ -1,6 +1,7 @@
 .navigation_menu {
 	width: 75px;
 	height: 100%;
+	float: left;
 }
 
 .navigation_pusher {

@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Navigation from './Navigation.jsx';
+import Page from './Page.jsx'
 
 class App extends Component {
 	constructor (props) {
@@ -16,6 +17,7 @@ class App extends Component {
 		return (
 			<div>
 				<Navigation appVersion={appVersion} />
+				<Page />
 			</div>
 		);
 	}
