@@ -1,0 +1,14 @@
+.navigation_menu {
+	width: 75px;
+	height: 100%;
+}
+
+.navigation_pusher {
+	height: calc(100% - 200px);
+}
+
+.navigation_footer {
+	height: 100px;
+	text-align: center;
+	font-size: 0.75em;
+}

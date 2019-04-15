@@ -1,10 +1,10 @@
 import React from "react"
-import HomeButton from './HomeButton.jsx';
+import Navigation from './Navigation.jsx';
 
 const App = (props) => {
 	return (
 		<div>
-			<HomeButton />
+			<Navigation />
 		</div>
 	);
 }
