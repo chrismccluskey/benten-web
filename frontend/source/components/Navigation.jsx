@@ -5,6 +5,7 @@ import MenuItem from './MenuItem.jsx';
 
 class Navigation extends Component {
 	render() {
+		const { appVersion } = this.props;
 		return (
 			<div className={styles.navigation_menu}>
 				<HomeButton />
@@ -16,7 +17,7 @@ class Navigation extends Component {
 				<div className={styles.navigation_pusher}></div>
 
 				<div className={styles.navigation_footer}>
-					1.0.0
+					{appVersion}
 				</div>
 			</div>
 		);
